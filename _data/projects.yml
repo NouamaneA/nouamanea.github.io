@@ -1,0 +1,20 @@
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://github.com/NouamaneA/fast-algorithm-psiscore # Full URL
+    image:
+      path: "power_psi.png"
+      alt: "A plot showing the performance of the algorithm"
+    date: 06/2022 # &ndash; Developing
+    title: Power-Psi
+    summary: Fast Approximation of the Psi-score
+    description: A Fast Algorithm for Measuring the Influence of Users in Social Networks
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://github.com/NouamaneA/proof-assistant # Full URL
+    date: 01/2022 # &ndash; Developing
+    title: OCaml Proof Assistant
+    summary: Simple proof assistant
+    description: A simple propositional prover written in OCaml. Developed in the context of the <a href="http://inf551.mimram.fr/" target="_blank">Computational Logic (INF551)</a> course at Ecole Polytechnique. Code available on <a href="https://github.com/NouamaneA/proof-assistant" target="_blank">GitHub</a>.
