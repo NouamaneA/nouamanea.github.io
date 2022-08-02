@@ -1,6 +1,23 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://github.com/NouamaneA/psi-score # Full URL
+    date: 07/2022 &ndash; Developing
+    title: Python package for Psi-score
+    summary: Psi-score is a metric of influence in social networks
+    description: A python package for social graph analysis with the Psi-score metric.
+    contents:
+      - title: References
+        description:  <li>Giovanidis, A., Baynat, B., Magnien, C., & Vendeville, A. (2021).
+                        Ranking Online Social Users by Their Influence. 
+                        IEEE/ACM Transactions on Networking, 29(5), 2198–2214. https://doi.org/10.1109/tnet.2021.3085201</li>
+                      <li>Arhachoui, N., Bautista, E., Danisch, M., & Giovanidis, A. (2022). 
+                        A Fast Algorithm for Ranking Users by their Influence in Online Social Platforms. 
+                        arXiv Preprint. https://doi.org/10.48550/ARXIV.2206.09960</li>
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://github.com/NouamaneA/fast-algorithm-psiscore # Full URL
     image:
       path: "power_psi.png"
@@ -17,4 +34,8 @@
     date: 01/2022 # &ndash; Developing
     title: OCaml Proof Assistant
     summary: Simple proof assistant
-    description: A simple propositional prover written in OCaml. Developed in the context of the <a href="http://inf551.mimram.fr/" target="_blank">Computational Logic (INF551)</a> course at Ecole Polytechnique. Code available on <a href="https://github.com/NouamaneA/proof-assistant" target="_blank">GitHub</a>.
+    description: A simple propositional prover written in OCaml.
+    contents:
+      - title: Credits
+        description: Developed in the context of the <a href="http://inf551.mimram.fr/" target="_blank">Computational Logic (INF551)</a> course at Ecole Polytechnique. 
+                      Code available on <a href="https://github.com/NouamaneA/proof-assistant" target="_blank">GitHub</a>.

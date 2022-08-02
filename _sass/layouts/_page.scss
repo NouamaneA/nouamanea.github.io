@@ -1,0 +1,30 @@
+div.page{
+    @extend %page-padding;
+    .bg{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        top: 105px;
+        left:0%;
+        height: 95px;
+        background-color: $theme-dark;
+    }
+    h1.title{
+        color:#fff;
+        margin-bottom: 30px;
+    }
+    a {
+        border-bottom: 1px dashed;
+        &:hover  {
+            border-bottom-style: solid;
+            text-decoration: none;
+        }
+      }
+
+    .links {
+        a {
+            border-bottom: none;
+        }
+    }
+}
