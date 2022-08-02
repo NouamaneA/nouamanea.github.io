@@ -13,14 +13,15 @@ tagline: Computer Science Student
 description: MSc Student in the Computer Science program of Institut Polytechnique de Paris
 author: Nouamane Arhachoui
 twitter:
-  username: 
-  card: 
+  username: nouamarh
+  card: My personal academic website
 logo: /assets/img/me.jpg
 social:
   name: Nouamane Arhachoui
   links:
-    - https://linkedin.com/in/nouamane-arhachoui
+    - https://twitter.com/nouamarh
     - https://github.com/NouamaneA
+    - https://linkedin.com/in/nouamane-arhachoui
 locale: en_GB
 
 # Page Settings
