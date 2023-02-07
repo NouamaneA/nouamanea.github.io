@@ -1,6 +1,6 @@
 image: assets/img/me.jpg
 username: Nouamane Arhachoui
-description: I'm a PhD Student in Computer Science at the LIP6 lab - [Sorbonne Université](https://www.sorbonne-universite.fr/). I work on how to characterize the diffusion of fake news and propaganda in Social Networks in order to mitigate them. I'm part of the [NPA](https://www-npa.lip6.fr/) research team at the [LIP6](https://www.lip6.fr/) and the RST (Computer Networks) department of [Télécom SudParis](https://telecom-sudparis.eu), [Institut Polytechnique de Paris](https://ip-paris.fr).
+description: I'm a PhD Student in Computer Science at the LIP6 lab - [Sorbonne Université](https://www.sorbonne-universite.fr/). I work on how to characterize the diffusion of fake news and propaganda in Social Networks in order to mitigate them. I'm part of the [Complex Networks](https://www.complexnetworks.fr/) research team at the [LIP6](https://www.lip6.fr/) and the RST (Computer Networks) department of [Télécom SudParis](https://telecom-sudparis.eu), [Institut Polytechnique de Paris](https://ip-paris.fr).
 webpage: https://nouamanearhachoui.com
 experience:
   - start: 09/2022
@@ -33,9 +33,9 @@ skills:
 social:
   email: nouamane.arhachoui@lip6.fr # Full email address, e.g. "sample@google.com"
   orcid: 0000-0003-0242-415X
-  scholar: 
+  scholar: MQmT5DcAAAAJ
   publons: 
-  research_gate: 
+  research_gate: #Nouamane-Arhachoui
   linkedin: nouamane-arhachoui
   github: NouamaneA
   gitlab: 
