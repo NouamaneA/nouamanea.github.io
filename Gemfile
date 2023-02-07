@@ -10,4 +10,5 @@ group :jekyll_plugins do
   gem "jekyll-scholar"
   gem "jekyll-paginate"
   gem "jekyll-seo-tag"
+  gem "jekyll-sass-converter", "~> 2.0"
 end
