@@ -8,10 +8,10 @@
     description: A python package for social graph analysis with the Psi-score metric.
     contents:
       - title: References
-        description:  <li>Giovanidis, A., Baynat, B., Magnien, C., & Vendeville, A. (2021).
+        description:  <li>[1] Giovanidis, A., Baynat, B., Magnien, C., & Vendeville, A. (2021).
                         Ranking Online Social Users by Their Influence. 
                         IEEE/ACM Transactions on Networking, 29(5), 2198–2214. https://doi.org/10.1109/tnet.2021.3085201</li>
-                      <li>Arhachoui, N., Bautista, E., Danisch, M., & Giovanidis, A. (2022). 
+                      <li>[2] Arhachoui, N., Bautista, E., Danisch, M., & Giovanidis, A. (2022). 
                         A Fast Algorithm for Ranking Users by their Influence in Online Social Platforms. 
                         The 2022 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM). https://hal.archives-ouvertes.fr/hal-03700079</li>
 
