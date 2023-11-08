@@ -14,6 +14,9 @@
         <a href="{{ '/presentations' | relative_url }}">
           <li class="btn-nav">Presentations</li>
         </a>
+        <a href="{{ '/teaching' | relative_url }}">
+          <li class="btn-nav">Teaching</li>
+        </a>
         <a href="{{ '/softwares' | relative_url }}">
           <li class="btn-nav">Softwares</li>
         </a>
@@ -33,6 +36,9 @@
         <li class="current">Publications</li>
         <a href="{{ '/presentations' | relative_url }}">
           <li class="btn-nav">Presentations</li>
+        </a>
+        <a href="{{ '/teaching' | relative_url }}">
+          <li class="btn-nav">Teaching</li>
         </a>
         <a href="{{ '/softwares' | relative_url }}">
           <li class="btn-nav">Softwares</li>
@@ -54,6 +60,9 @@
           <li class="btn-nav">Publications</li>
         </a>
         <li class="current">Presentations</li>
+        <a href="{{ '/teaching' | relative_url }}">
+          <li class="btn-nav">Teaching</li>
+        </a>
         <a href="{{ '/softwares' | relative_url }}">
           <li class="btn-nav">Softwares</li>
         </a>
@@ -76,6 +85,9 @@
         <a href="{{ '/presentations' | relative_url }}">
           <li class="btn-nav">Presentations</li>
         </a>
+        <a href="{{ '/teaching' | relative_url }}">
+          <li class="btn-nav">Teaching</li>
+        </a>
         <a href="{{ '/softwares' | relative_url }}">
           <li class="btn-nav">Softwares</li>
         </a>
@@ -95,6 +107,9 @@
         </a>
         <a href="{{ '/presentations' | relative_url }}">
           <li class="btn-nav">Presentations</li>
+        </a>
+        <a href="{{ '/teaching' | relative_url }}">
+          <li class="btn-nav">Teaching</li>
         </a>
         <a href="{{ '/softwares' | relative_url }}">
           <li class="btn-nav">Softwares</li>
@@ -116,7 +131,33 @@
         <a href="{{ '/presentations' | relative_url }}">
           <li class="btn-nav">Presentations</li>
         </a>
+        <a href="{{ '/teaching' | relative_url }}">
+          <li class="btn-nav">Teaching</li>
+        </a>
         <li class="current">Softwares</li>
+        {% if site.blog %}
+        <a href="{{ '/blog' | relative_url }}">
+          <li class="btn-nav">Blog</li>
+        </a>
+        <a href="{{ '/tags' | relative_url }}">
+          <li class="btn-nav">Tags</li>
+        </a>
+        {% endif %}
+        <!-- teaching -->
+        {% when 'teaching' %}
+        <a href="{{ '/' | relative_url }}">
+          <li class="btn-nav">Home</li>
+        </a>
+        <a href="{{ '/publications' | relative_url }}">
+          <li class="btn-nav">Publications</li>
+        </a>
+        <a href="{{ '/presentations' | relative_url }}">
+          <li class="btn-nav">Presentations</li>
+        </a>
+        <li class="current">Teaching</li>
+        <a href="{{ '/softwares' | relative_url }}">
+          <li class="btn-nav">Softwares</li>
+        </a>
         {% if site.blog %}
         <a href="{{ '/blog' | relative_url }}">
           <li class="btn-nav">Blog</li>
@@ -135,6 +176,9 @@
         </a>
         <a href="{{ '/presentations' | relative_url }}">
           <li class="btn-nav">Presentations</li>
+        </a>
+        <a href="{{ '/teaching' | relative_url }}">
+          <li class="btn-nav">Teaching</li>
         </a>
         <a href="{{ '/softwares' | relative_url }}">
           <li class="btn-nav">Softwares</li>

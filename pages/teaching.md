@@ -5,8 +5,17 @@ description: Given courses
 permalink: /teaching
 ---
 
-#### Sorbonne University
+#### Teaching assistant 
 
-##### Teaching assistant 
-- [Introduction to Programming](http://licence.premiereannee.sorbonne-universite.fr/fr/la-licence-1ere-annee/liste-des-ue/lu1in011.html) (LU1IN0X1): 30 hours
-- [Network Data Analysis](https://github.com/yokaiAG/DataNets-Course) (MU5IN076): 24 hours
+---
+
+##### 2023 - 2024
+###### Sorbonne Université
+- *Introduction to Programming* (L1, 38.5h): 
+
+---
+
+##### 2022 - 2023
+###### Sorbonne Université
+- *Introduction to Programming* (L1, 30h)
+- *Network Data Analysis* (M2, 24h): [[Link]](https://github.com/yokaiAG/DataNets-Course)
