@@ -11,7 +11,8 @@ permalink: /teaching
 
 ##### 2023 - 2024
 ###### Sorbonne Université
-- *Introduction to Programming* (L1, 38.5h): 
+- *Introduction to Programming* (L1, 38.5h)
+- *Algorithms* (L2, 38.5h)
 
 ---
 
