@@ -1,9 +1,15 @@
 - presentation:
-    title: A Fast Algorithm for Ranking Users by their Influence in Online Social Platforms
-    event: NPA&Phare Students Day
-    date: 07/2022
-    # comment:
-    slides: /assets/pdfs/StudentsDay_Presentation.pdf # potential link to slides
+    title: Ranking Users by their Influence in Social Networks
+    event: Lake Como School of Advanced Studies, Como, Italy
+    date: 05/2023
+    slides: /assets/pdfs/LakeComoSchool.pdf
+
+# - presentation:
+#     title: A Fast Algorithm for Ranking Users by their Influence in Online Social Platforms
+#     event: NPA&Phare Students Day
+#     date: 07/2022
+#     # comment:
+#     slides: /assets/pdfs/StudentsDay_Presentation.pdf # potential link to slides
 
 - presentation:
     title: A Fast Algorithm for Ranking Users by their Influence in Online Social Platforms
