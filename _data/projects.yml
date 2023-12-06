@@ -3,10 +3,13 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://github.com/NouamaneA/psi-score # Full URL
     date: 07/2022 &ndash; Developing
-    title: Python package for Psi-score
-    summary: Psi-score is a metric of influence in social networks
-    description: A python package for social graph analysis with the Psi-score metric.
+    title: PsiScore
+    summary: A python package for social graph analysis with the Psi-score metric.
+    description: This Python library provides several implementations of the PsiScore, an influence metric that generalizes the PageRank in the context of social networks.
     contents:
+      - title: Provided methods
+        description:  <li>- Power-Psi and Power-NF, two algorithms based on power iterations</li>
+                      <li>- Push-Psi and Push-NF, two algorithms based on a push-flow algorithm.</li>
       - title: References
         description:  <li>[1] Giovanidis, A., Baynat, B., Magnien, C., & Vendeville, A. (2021).
                         Ranking Online Social Users by Their Influence. 
@@ -14,18 +17,6 @@
                       <li>[2] Arhachoui, N., Bautista, E., Danisch, M., & Giovanidis, A. (2022). 
                         A Fast Algorithm for Ranking Users by their Influence in Online Social Platforms. 
                         The 2022 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM). https://hal.archives-ouvertes.fr/hal-03700079</li>
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://github.com/NouamaneA/fast-algorithm-psiscore # Full URL
-    image:
-      path: "power_psi.png"
-      alt: "A plot showing the performance of the algorithm"
-    date: 06/2022 # &ndash; Developing
-    title: Power-Psi
-    summary: Fast Approximation of the Psi-score
-    description: A Fast Algorithm for Measuring the Influence of Users in Social Networks
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
