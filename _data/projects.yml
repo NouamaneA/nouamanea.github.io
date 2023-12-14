@@ -2,7 +2,7 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://github.com/NouamaneA/psi-score # Full URL
-    date: 07/2022 &ndash; Developing
+    date: 07/2022 &ndash; Maintained
     title: PsiScore
     summary: A python package for social graph analysis with the Psi-score metric.
     description: This Python library provides several implementations of the PsiScore, an influence metric that generalizes the PageRank in the context of social networks.

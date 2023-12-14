@@ -60,6 +60,9 @@
   {% if entry.preprint %}
     {%- capture thirdLine -%}Preprint{%- endcapture -%}
   {%- endif -%}
+  {% if entry.comment %}
+    {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}, {% endif %}{{ entry.comment }}{%- endcapture -%}
+  {%- endif -%}
   {% if entry.type == "article" -%}
     {%- capture thirdLine -%}{{entry.journal}}{%- endcapture -%}
   {%- elsif entry.type == "inproceedings" -%}

@@ -24,7 +24,7 @@ interests:
   - Machine Learning
   - Social Network Analysis
 skills:
-  - skill: Python (NumPy, NetworkX, SciPy, Scikit-Learn, ...)
+  - skill: Python (NumPy, NetworkX, SciPy, PyTorch, Scikit-Learn, ...)
   - skill: Java
   - skill: Bash
   - skill: SQL
