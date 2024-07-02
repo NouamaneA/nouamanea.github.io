@@ -9,14 +9,13 @@ permalink: /teaching
 
 ---
 
-##### 2023 - 2024
+##### Undergraduate
 ###### Sorbonne Université
-- *Introduction to Programming* (L1, 38.5h)
-- *Algorithms* (L2, 38.5h)
+- *Introduction to Programming* \| L1 \| 71.8h \| 2022 - 2024
+- *Algorithms* \| L2 \| 45.5h \| 2023 - 2024
 
 ---
 
-##### 2022 - 2023
+##### Master
 ###### Sorbonne Université
-- *Introduction to Programming* (L1, 30h)
-- *Network Data Analysis* (M2, 24h): [[Link]](https://github.com/yokaiAG/DataNets-Course)
+- [*Network Data Analysis*](https://github.com/yokaiAG/DataNets-Course) \| M2 \| 24h \| 2022 - 2023
