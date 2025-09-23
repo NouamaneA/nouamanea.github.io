@@ -65,6 +65,8 @@
   {%- endif -%}
   {% if entry.type == "article" -%}
     {%- capture thirdLine -%}{{entry.journal}}{%- endcapture -%}
+  {% elsif entry.type == "inbook" -%}
+    {%- capture thirdLine -%}In {{entry.booktitle}}. {{entry.bookseries}}. {{entry.publisher}}{%- endcapture -%}
   {%- elsif entry.type == "inproceedings" -%}
     {%- capture thirdLine -%}In {{entry.booktitle}}{%- endcapture -%}
   {%- elsif entry.type == "phdthesis" -%}
@@ -77,16 +79,16 @@
     {%- endif -%}
   {%- endif -%}
   {%- if entry.volume -%}
-    {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}, {% endif %}vol. {{ entry.volume }}{%- endcapture -%}
+    {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %} {% endif %}{% if entry.volume != blank %}vol. {{ entry.volume }}{% endif %}{%- endcapture -%}
   {%- endif -%}
   {%- if entry.pages -%}
-    {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}, {% endif %}pp. {{ entry.pages }}{%- endcapture -%}
+    {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}. {% endif %}pp. {{ entry.pages }}{%- endcapture -%}
   {%- endif -%}
   {%- if entry.month -%}
-    {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}, {% endif %}{{ entry.month | capitalize }}{%- endcapture -%}
+    {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}. {% endif %}{{ entry.month | capitalize }}{%- endcapture -%}
   {%- endif -%}
   {%- if entry.year -%}
-    {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}, {% endif %}{{ entry.year }}{%- endcapture -%}
+    {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}. {% endif %}{{ entry.year }}{%- endcapture -%}
   {%- endif -%}
   <div class="third-line">
     {{ thirdLine | strip }}

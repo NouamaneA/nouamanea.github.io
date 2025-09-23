@@ -12,7 +12,7 @@ permalink: /teaching
 ##### Undergraduate
 ###### Sorbonne Université
 - *Introduction to Programming* \| L1 \| 78.8h \| 2022 - 2025
-- *Algorithms* \| L2 \| 87.25h \| 2023 - 2025
+- *Algorithms* \| L2 \| 89h \| 2023 - 2025
 
 ---
 
