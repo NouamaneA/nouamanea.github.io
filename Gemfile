@@ -2,6 +2,7 @@
 source "https://rubygems.org"
 gemspec
 
+gem "bigdecimal"
 gem "ffi", "= 1.16.3"
 gem "webrick"
 gem "kramdown-parser-gfm"
