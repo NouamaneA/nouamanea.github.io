@@ -1,8 +1,36 @@
 - presentation:
+    title: Learning Multiplex Embeddings for Overlapping Community Detection in Online Social Networks
+    event: 8th edition of the GdR MaDICS Symposium, Avignon, France, 06/2026
+    poster: poster-madics.pdf
+
+- presentation:
+    title: Les réseaux sociaux nous rendront-ils tous mascu ?
+    event: Sorbonne University, Paris, France, 03/2026
+    comment: "Debate on the impact of social networks on society and individuals, organized by the Sorbonne University. I participated in the debate as a guest speaker, sharing my insights on social media algorithms."
+    link: https://www.sorbonne-universite.fr/evenements/les-reseaux-sociaux-nous-rendront-ils-tous-mascu
+
+- presentation:
+    title: "From Individual to Collective Influence in Online Social Platforms: Metrics, Algorithms and Applications"
+    event: Sorbonne University, Paris, France, 01/2026
+    comment: PhD defense
+
+- presentation:
+    title: Multi-Relational Community Detection in Social Platforms using Graph Neural Networks
+    event: FRCCS 2025, Bordeaux, France, 05/2025
+    # date: 05/2025
+    slides: frccs.pdf
+
+- presentation:
+    title: Introduction to Community Detection in Complex Networks
+    event: PhD student workshop, Sorbonne University, Paris, France, 06/2024
+    # date: 06/2024
+    slides:
+
+- presentation:
     title: Ranking Users by their Influence in Social Networks
-    event: Lake Como School of Advanced Studies, Como, Italy
-    date: 05/2023
-    slides: /assets/pdfs/LakeComoSchool.pdf
+    event: Lake Como School of Advanced Studies, Como, Italy, 05/2023
+    # date: 05/2023
+    slides: LakeComoSchool.pdf
 
 # - presentation:
 #     title: A Fast Algorithm for Ranking Users by their Influence in Online Social Platforms
@@ -13,6 +41,7 @@
 
 - presentation:
     title: A Fast Algorithm for Ranking Users by their Influence in Online Social Platforms
-    event: ASONAM 2022
-    date: 11/2022
-    slides: /assets/pdfs/ASONAM.pdf
+    event: "- ASONAM, Istanbul, Turkey, 11/2022 <br> - LIP6 day, Paris, France, 09/2022 (poster) <br> - Networks and Performance Analysis (NPA group, LIP6) Students Day, Paris, France, 07/2022 <br> - Complex Networks x NPA seminar, Paris, France, 04/2022"
+    # date: 11/2022
+    slides: ASONAM.pdf
+    poster: poster-lip6.pdf

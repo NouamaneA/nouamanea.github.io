@@ -10,16 +10,12 @@ lang: en
 # Search engine optimization settings
 title: Nouamane Arhachoui
 tagline: Computer Science Student
-description: PhD Student in Computer Science -- Sorbonne University
+description: PhD in Computer Science -- Sorbonne University
 author: Nouamane Arhachoui
-twitter:
-  username: nouamarh
-  card: My personal academic website
 logo: /assets/img/me.jpg
 social:
   name: Nouamane Arhachoui
   links:
-    - https://twitter.com/nouamarh
     - https://github.com/NouamaneA
     - https://linkedin.com/in/nouamane-arhachoui
 locale: en_GB
@@ -42,7 +38,7 @@ paginate_path: "blog/page:num"
 sass:
   sass_dir: _sass
   style: compressed
-plugins: ['jekyll-paginate', 'jekyll/scholar', 'jekyll-seo-tag']
+plugins: ["jekyll-paginate", "jekyll/scholar", "jekyll-seo-tag"]
 bootstrap:
   assets: true
 
@@ -57,7 +53,21 @@ scholar:
   sort_by: year,month
   order: descending,ascending
 
-filtered_bibtex_keywords: [abbr, abstract, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preprint] # Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords: [
+    abbr,
+    abstract,
+    bibtex_show,
+    html,
+    pdf,
+    selected,
+    supp,
+    blog,
+    code,
+    poster,
+    slides,
+    website,
+    preprint,
+  ] # Filter out certain bibtex entry keywords used internally from the bib output
 
 academicons:
   version: "1.9.1"

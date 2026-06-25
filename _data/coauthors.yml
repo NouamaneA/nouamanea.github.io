@@ -8,8 +8,11 @@
 
 "Tabourier":
   - firstname: ["Lionel", "L."]
-    url: https://lioneltabourier.fr
+    url: https://lioneltabourier.github.io/
 
 "Danisch":
   - firstname: ["Maximilien", "M."]
-    url: https://sites.google.com/view/danisch
+
+"Gauthier":
+  - firstname: ["Vincent", "V."]
+    url: https://complex.luxbulb.org/

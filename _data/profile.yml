@@ -1,14 +1,17 @@
 image: assets/img/me.jpg
 username: Nouamane Arhachoui
-description: I'm a PhD Student in Computer Science at the [LIP6](https://www.lip6.fr/) lab - [Sorbonne Université](https://www.sorbonne-universite.fr/). My work focuses on developing graph algorithms and machine learning models that incorporate users' interactions to the network structure of social platforms to detect opinion groups and influence propagation. I'm a member of the [Complex Networks](https://www.complexnetworks.fr/) research team at the LIP6 and I'm affiliated with the Networks and Services department of [Télécom SudParis](https://telecom-sudparis.eu), [Institut Polytechnique de Paris](https://ip-paris.fr).
+description: I'm a Temporary Teaching and Research Fellow (ATER) at the [LIP6](https://www.lip6.fr/) lab - [Sorbonne University](https://www.sorbonne-universite.fr/). Prior to that, I was a PhD Student in Computer Science at the same lab. My current work focuses on developing influence-aware community detection algorithms for Online Social Networks. This means that I design algorithms that incorporate users' interactions to the network structure of social platforms to find opinion groups and influence propagation. I'm a member of the [Complex Networks](https://www.complexnetworks.fr/) research team at the LIP6.
 webpage: https://nouamanearhachoui.com
 experience:
+  - start: 01/2026
+    end: present
+    experience: Temporary Teaching and Research Fellow (ATER) &ndash; LIP6, Sorbonne University
   - start: 09/2022
-    end:
-    experience: PhD Candidate &ndash; LIP6, Sorbonne Université
+    end: 01/2026
+    experience: PhD Candidate &ndash; LIP6, Sorbonne University
   - start: 03/2022
     end: 08/2022
-    experience: Research Internship &ndash; LIP6, Sorbonne Université
+    experience: Research Internship &ndash; LIP6, Sorbonne University
   - start: 09/2021
     end: 08/2022
     experience: Master of Science in Computer Science &ndash; Institut Polytechnique de Paris
@@ -32,16 +35,16 @@ skills:
 
 social:
   email: nouamane.arhachoui@lip6.fr # Full email address, e.g. "sample@google.com"
-  orcid: 0000-0003-0242-415X
+  orcid: # 0000-0003-0242-415X
   scholar: MQmT5DcAAAAJ
-  publons: 
-  research_gate: #Nouamane-Arhachoui
+  publons:
+  research_gate: Nouamane-Arhachoui
   linkedin: nouamane-arhachoui
   github: NouamaneA
-  gitlab: 
-  bitbucket: 
+  gitlab:
+  bitbucket:
   google_plus:
-  twitter: 
+  twitter:
   youtube:
   facebook:
   instagram:

@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<div id="presentations">
+<!-- <div id="presentations">
   <section class="bg"></section>
   <h1 class="title">{{ page.title }}</h1>
   <ol class="presentations-list">
@@ -13,6 +13,44 @@ layout: page
         <div class="links">
           {%- if presentation.slides %}
             [<a href="{{ presentation.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>]
+          {%- endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+</div> -->
+
+<div id="presentations">
+  <section class="bg"></section>
+  <h1 class="title">{{ page.title }}</h1>
+  <ol class="presentations-list">
+    {% for _ in site.data.presentations %}
+      {% assign presentation = _.presentation %}
+      <li>
+        <em class="title">{{ presentation.title }}</em> 
+        {%- if presentation.event -%}
+             <br>
+             <em class="event">{{ presentation.event }}</em> 
+        {%- endif -%}
+        <em class="date">{%- if presentation.date %}({{ presentation.date }}){%- endif %}</em>
+        <p class="comment">{{ presentation.comment | markdownify }}</p>
+        <div class="links">
+          {%- if presentation.slides %}
+            {% if presentation.slides contains '://' -%}
+              [<a href="{{ presentation.slides }}" class="btn btn-sm z-depth-0" role="button" title="Slides">Slides</a>]
+            {%- else -%}
+              [<a href="{{ presentation.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" title="Slides">Slides</a>]
+            {%- endif %}
+          {%- endif %}
+          {%- if presentation.poster %}
+            {% if presentation.poster contains '://' -%}
+              [<a href="{{ presentation.poster }}" class="btn btn-sm z-depth-0" role="button" title="Poster">Poster</a>]
+            {%- else -%}
+              [<a href="{{ presentation.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" title="Poster">Poster</a>]
+            {%- endif %}
+          {%- endif %}
+          {%- if presentation.link %}
+            [<a href="{{ presentation.link }}" class="btn btn-sm z-depth-0" role="button" title="Link">Link</a>]
           {%- endif %}
         </div>
       </li>
